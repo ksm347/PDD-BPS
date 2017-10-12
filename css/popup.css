@@ -1,0 +1,30 @@
+/*popup*/
+ul{
+        padding: 0;
+        list-style: none;
+        z-index:2;
+    }
+    ul li{
+        float: left;
+        width: 100px;
+        text-align: center;
+        line-height: 21px;
+    }
+    ul li a{
+        display: block;
+        padding: 5px 10px;
+        color: #333;
+        background: gray;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul li ul{
+        display: none;
+    }
+    ul li:hover ul{
+        display: block; /* display the dropdown */
+    }
+  /*popup*/
